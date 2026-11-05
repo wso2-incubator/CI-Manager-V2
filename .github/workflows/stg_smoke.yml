@@ -6,6 +6,9 @@ on:
       uuid:
         description: UMT staging test row uuid
         required: true
+      update_id:
+        description: UMT update id
+        required: false
 jobs:
   smoke:
     runs-on: ubuntu-latest

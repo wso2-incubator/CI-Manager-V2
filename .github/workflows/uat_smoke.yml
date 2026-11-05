@@ -6,6 +6,9 @@ on:
       uuid:
         description: UMT release chunk build row uuid
         required: true
+      release_chunk_id:
+        description: UMT release chunk id
+        required: false
 jobs:
   smoke:
     runs-on: ubuntu-latest
